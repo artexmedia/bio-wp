@@ -1,0 +1,28 @@
+@import "_normalize.scss";
+@import "_var.scss";
+@import "_bootstrap.min.scss";
+
+$purple: #52408f;
+$green: #69a738;
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 500;
+}
+
+
+body {
+    font-size: 17px;
+    color: #5a6353;
+    font-family: "Nunito";
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1060px;
+    width: 100%;
+    padding: 0 30px;
+}
